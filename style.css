@@ -1,0 +1,298 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    /* border: 1px solid red; */
+}
+
+
+.container{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    
+
+}
+
+.navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 1rem;
+    box-shadow: 0px 0px 3px 3px rgb(172, 170, 170);
+    position: sticky;
+    top: 0;
+    background-color: white;
+    
+}
+
+.head{
+    width: 20%;
+    font-size: 0.8rem;
+    padding-left: 2rem;    
+}
+
+
+.center{
+    width: 40%;
+}
+
+.center ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.center ul li{
+    list-style: none;
+    
+}
+
+.center li a{
+    text-decoration: none;
+    color: rgb(12, 12, 90);
+    font-weight: 500;
+}
+
+.login{
+    width: 24%;
+    height: auto;
+    padding-left: 3rem;
+
+}
+
+.login button{
+    width: 23%;
+    height: auto;
+    border: none;
+    background-color: transparent;
+    color: rgb(12, 12, 90);
+
+}
+#btn{
+    width: 44%;
+    height: 3.2em;
+    background-color: rgb(50, 50, 148);
+    color: white;
+    border-radius: 1.3rem;
+}
+
+.hero-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    
+}
+
+.text-part{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.text-part h1{
+    font-size: 2rem;
+    color: rgb(1, 1, 58);
+}
+
+.text-part h1 em{
+    font-style: italic;
+    font-size: 1.5rem;
+    color: aqua;
+    font-weight: 400;
+}
+
+.text-part p{
+    font-weight: 400;
+    color: rgb(79, 79, 202);
+}
+
+.text-part button{
+    width: 60%;
+    height: 2.2rem;
+    border: none;
+    background-color: rgb(48, 48, 236);
+    border-radius: 1.2rem;
+    color: white;
+
+}
+
+.timepass{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+.image-part{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.image-part img{
+    width: 70%;
+}
+.timepass h3{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(85, 84, 84);
+}
+
+.all-image{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+}
+
+.all-image img{
+    width: 10%;
+}
+
+.text-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.text-section h1{
+    font-size: 2rem;
+    color: rgb(1, 1, 58);
+}
+.text-section h1 em{
+    font-style: italic;
+    font-size: 1.5rem;
+    color: aqua;
+    font-weight: 400;
+}
+.text-section p{
+    font-weight: 400;
+    color: rgb(27, 27, 94);
+    line-height: 1.5rem;
+}
+
+.box-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline: 4rem;
+    padding-bottom: 2rem;
+}
+
+
+
+
+@media (max-width :480px) {
+
+    .container{
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar{
+        width: 100%;
+        height: auto;
+        
+    }
+    .head{
+        width: 20%;
+
+    }
+    .head h1{
+        font-size: 1rem;
+    }
+
+    .center{
+        display: none;
+    }
+    .login{
+        width: 50%;
+      
+    }
+    .login button{
+        width: 50%;
+        height: 30px;
+        background-color: rgb(48, 48, 236);
+        border-radius: 10px;
+        color: white;
+        /* margin-left: 20px; */
+
+    }
+    #btn{
+        display: none;
+    }
+
+    .hero-section{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .text-part{
+        width: 80%;
+        /* margin-right: 10px; */
+    }
+    .text-part h1{
+        font-size: 1.7rem;
+    }
+    .text-part p{
+        font-size: 0.8rem;
+    }
+
+    .image-part{
+        width: 80%;
+    }
+    .image-part img{
+        width: 80%;
+    }
+
+    .text-section{
+        width: 100%;
+        height: auto;
+
+    }
+    .text-section h1{
+        font-size: 1.9rem;
+    }
+    .text-section p{
+        font-size: 0.9rem;
+    }
+
+    .box-section{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    
+}
